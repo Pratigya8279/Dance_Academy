@@ -1,0 +1,114 @@
+*{
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(189, 80, 80);
+    align-items: center;
+    justify-content: center;
+}
+li{
+    padding: 20px;
+    list-style: none;
+
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    /* padding: 13px 30px; */
+    font-size: 30px;
+}
+ul li a:hover{
+    color: black;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 12px;
+}
+#logo img{
+    height: 50px;
+    width: 30px;
+}
+#introsection{
+    height: 420px;
+    display:flex;
+    flex-direction: column;
+    background: url("../static/img/dance.jpg") no-repeat center center/cover;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+
+}
+div.small{
+    font-size: 20px;
+}
+#missionsection{
+    /* width: 67%; */
+    /* margin: auto; */
+    height: 400px;
+    display:block;
+    text-align: center;
+    justify-content: center;
+    background:url("../static/img/dance3.jpg") no-repeat center center/cover;
+}
+.card{
+    height: 250px;
+    display:inline-block;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 30px 10px;
+    background-color: rgb(235, 188, 188);
+}
+.card h3{
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.card-content{
+    font-size: 12px;
+}
+.card-img img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+#sponsorsection{
+    height: 300px;
+    padding: 20px;
+    display:block;
+    text-align: center;
+    justify-content: center;
+    /* background: url("../static/img/dance.jpg") no-repeat center center/cover; */
+    background-color: palegoldenrod;
+}
+#sponsors img{
+    width: 150px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+#footer{
+    display: block;
+    margin: 2px auto;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    /* font-size: 20px; */
+}
